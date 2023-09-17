@@ -1,0 +1,32 @@
+.author{
+    padding-top: 50px;
+    color: rgb(200, 161, 76);
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    margin: 0px 300px ;
+    margin-top: 90px;
+    background-color: rgb(250, 235, 215 , 0.7);
+    border: 1px dotted black;
+    box-shadow: 3px 3px 15px;
+    border-radius: 50px;
+    text-align: center;
+    height: 400px;
+}
+.quote{
+    font-size: 20px;
+    padding-top: 50px;
+    color: rgb(98, 98, 98);
+    font-style: italic;
+}
+.btn:hover{
+    transition:  transform 0.5s ease;
+    transform: scale(1.1);
+}
